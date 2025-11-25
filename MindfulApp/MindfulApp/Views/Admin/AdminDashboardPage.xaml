@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Admin.AdminDashboardPage"
+             Title="Admin Dashboard"
+             BackgroundColor="#0E1633"
+             Padding="20">
+
+    <ScrollView>
+        <StackLayout Spacing="20" VerticalOptions="Start">
+
+            <Button Text="🏠 Logout" Clicked="OnHomeClicked"
+                    BackgroundColor="Transparent" TextColor="#007BFF"
+                    HorizontalOptions="Start" FontAttributes="Bold"/>
+
+            <Label Text="Admin Dashboard" 
+                   FontSize="28" 
+                   FontAttributes="Bold" 
+                   TextColor="White" 
+                   HorizontalOptions="Center"/>
+
+            <Label x:Name="WelcomeLabel"
+                   Text="Welcome"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#1B3BFF"
+                   HorizontalOptions="Start"
+                   Margin="10,0,0,10"/>
+
+            <Grid RowSpacing="15" ColumnSpacing="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Users -->
+                <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="#1B3BFF" CornerRadius="12" Padding="10" HasShadow="True" HeightRequest="100">
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Label x:Name="TotalUsersLabel" Text="0" FontSize="24" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="Users" FontSize="14" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Mood Entries -->
+                <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="#1B3BFF" CornerRadius="12" Padding="10" HasShadow="True" HeightRequest="100">
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Label x:Name="TotalMoodEntriesLabel" Text="0" FontSize="24" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="Mood Entries" FontSize="14" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Meditation Sessions -->
+                <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="#1B3BFF" CornerRadius="12" Padding="10" HasShadow="True" HeightRequest="100">
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Label x:Name="TotalMeditationSessionsLabel" Text="0" FontSize="24" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="Meditation Sessions" FontSize="14" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Affirmations -->
+                <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="#1B3BFF" CornerRadius="12" Padding="10" HasShadow="True" HeightRequest="100">
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Label x:Name="TotalAffirmationsLabel" Text="0" FontSize="24" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+                        <Label Text="Affirmations" FontSize="14" TextColor="White" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+            <Button Text="Manage Users" BackgroundColor="#1B3BFF" TextColor="White" CornerRadius="8" HeightRequest="50" Clicked="OnManageUsersClicked"/>
+            <Button Text="View Mood Entries" BackgroundColor="#1B3BFF" TextColor="White" CornerRadius="8" HeightRequest="50" Clicked="OnMoodEntriesClicked"/>
+            <Button Text="View Meditation Sessions" BackgroundColor="#1B3BFF" TextColor="White" CornerRadius="8" HeightRequest="50" Clicked="OnMeditationSessionsClicked"/>
+            <Button Text="Profile" BackgroundColor="#1B3BFF" TextColor="White" CornerRadius="8" HeightRequest="50" Clicked="OnProfileClicked"/>
+            <Button Text="Reset Password" BackgroundColor="#1B3BFF" TextColor="White" CornerRadius="8" HeightRequest="50" Clicked="OnResetPasswordClicked"/>
+            <Button Text="Report and Summary" BackgroundColor="#1B3BFF" TextColor="White" CornerRadius="8" HeightRequest="50" Clicked="OnGenerateReportClicked"/>
+            <Button Text="Logout" BackgroundColor="#FF3B30" TextColor="White" CornerRadius="8" HeightRequest="50" Clicked="OnLogoutClicked"/>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

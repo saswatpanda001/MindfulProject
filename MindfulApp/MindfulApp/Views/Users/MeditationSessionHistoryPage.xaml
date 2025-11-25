@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Users.MeditationSessionHistoryPage"
+             BackgroundColor="#061428">
+
+    <StackLayout Padding="20">
+        <Button Text="🏠 Home" Clicked="OnHomeClicked"
+BackgroundColor="Transparent" TextColor="#007BFF"
+HorizontalOptions="Start" FontAttributes="Bold"/>
+
+
+        <Label Text="Meditation History"
+               FontSize="24"
+               TextColor="White"
+               HorizontalOptions="Center"
+               Margin="0,10"/>
+
+        <ListView x:Name="SessionListView"
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BackgroundColor="#0B1A3A"
+                               CornerRadius="15"
+                               Padding="15"
+                               Margin="0,10">
+
+                            <StackLayout>
+
+                                <Label Text="{Binding Date, StringFormat='{0:MMM dd, yyyy}'}"
+                                       FontSize="18"
+                                       TextColor="White"/>
+
+                                <Label Text="{Binding DurationMinutes, StringFormat='Duration: {0} min'}"
+                                       FontSize="14"
+                                       TextColor="#A0AFCB"/>
+
+                            </StackLayout>
+
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+    </StackLayout>
+</ContentPage>

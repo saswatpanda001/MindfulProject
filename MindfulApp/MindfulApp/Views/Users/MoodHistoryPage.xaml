@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Users.MoodHistoryPage"
+             Title="My Mood History"
+             BackgroundColor="#F2F6FF">
+
+    <ContentPage.Content>
+
+        <StackLayout Padding="15">
+            <Button Text="🏠 Home" Clicked="OnHomeClicked"
+BackgroundColor="Transparent" TextColor="#007BFF"
+HorizontalOptions="Start" FontAttributes="Bold"/>
+            
+
+            <ListView x:Name="MoodListView"
+                      HasUnevenRows="True"
+                      SeparatorVisibility="None">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Padding="15"
+                                   Margin="0,0,0,12"
+                                   CornerRadius="15"
+                                   BackgroundColor="White"
+                                   HasShadow="True">
+
+                                <StackLayout Spacing="6">
+
+                                    <Label Text="{Binding Mood}"
+                                           FontSize="18"
+                                           FontAttributes="Bold"
+                                           TextColor="#304FFE"/>
+
+                                    <Label Text="{Binding Note}"
+                                           FontSize="14"
+                                           TextColor="#444"/>
+
+                                    <Label Text="{Binding Date, StringFormat='Date: {0:dd MMM yyyy}'}"
+                                           FontSize="12"
+                                           TextColor="#666"/>
+
+                                </StackLayout>
+
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

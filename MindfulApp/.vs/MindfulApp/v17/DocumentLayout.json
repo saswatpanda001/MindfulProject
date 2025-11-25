@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MindfulApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulapp\\mindfulapp\\views\\landingpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\landingpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulapp\\mindfulapp\\views\\passwordresetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\passwordresetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulapp\\mindfulapp\\views\\passwordresetpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\passwordresetpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulapp\\mindfulapp\\views\\admin\\admindashboardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\admin\\admindashboardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 395,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LandingPage.xaml",
+              "DocumentMoniker": "C:\\MindfulApp\\MindfulApp\\Views\\LandingPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\LandingPage.xaml",
+              "ToolTip": "C:\\MindfulApp\\MindfulApp\\Views\\LandingPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\LandingPage.xaml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-25T20:09:02.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasswordResetPage.xaml.cs",
+              "DocumentMoniker": "C:\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml.cs",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\PasswordResetPage.xaml.cs",
+              "ToolTip": "C:\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml.cs",
+              "RelativeToolTip": "MindfulApp\\Views\\PasswordResetPage.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T20:06:05.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordResetPage.xaml",
+              "DocumentMoniker": "C:\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\PasswordResetPage.xaml",
+              "ToolTip": "C:\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\PasswordResetPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-25T20:05:39.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminDashboardPage.xaml",
+              "DocumentMoniker": "C:\\MindfulApp\\MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
+              "ToolTip": "C:\\MindfulApp\\MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-25T20:03:28.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 140,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

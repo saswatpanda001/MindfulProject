@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Users.CreateAffirmationPage"
+             Title="New Affirmation"
+             BackgroundColor="#F5F5F5">
+
+    <StackLayout Padding="20" Spacing="18">
+        <Button Text="🏠 Home" Clicked="OnHomeClicked"
+BackgroundColor="Transparent" TextColor="#007BFF"
+HorizontalOptions="Start" FontAttributes="Bold"/>
+
+        <Label Text="Create Affirmation"
+               FontSize="22"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Picker x:Name="CategoryPicker"
+                Title="Select Category"
+                FontSize="16">
+            <Picker.Items>
+                <x:String>Self-Love</x:String>
+                <x:String>Motivation</x:String>
+                <x:String>Calmness</x:String>
+                <x:String>Confidence</x:String>
+                <x:String>Healing</x:String>
+                <x:String>Gratitude</x:String>
+                <x:String>Success</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Editor x:Name="AffirmationText"
+                Placeholder="Write your affirmation..."
+                HeightRequest="120"
+                BackgroundColor="White"
+                FontSize="15" />
+
+        <Label Text="Date"
+               FontAttributes="Bold"
+               FontSize="14"/>
+
+        <Entry x:Name="DateEntry"
+               IsReadOnly="True"
+               BackgroundColor="White"
+               TextColor="#555"/>
+
+        <Button Text="Save Affirmation"
+                BackgroundColor="#4CAF50"
+                TextColor="White"
+                CornerRadius="8"
+                HeightRequest="46"
+                Clicked="OnSaveClicked"/>
+        
+        <Button Text="Affirmation History"
+             BackgroundColor="#4CAF50"
+             TextColor="White"
+             CornerRadius="8"
+             HeightRequest="46"
+             Clicked="OnAffirmationHistoryClicked"/>
+
+    </StackLayout>
+
+</ContentPage>
+    

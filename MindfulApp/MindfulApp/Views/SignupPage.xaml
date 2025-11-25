@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.SignupPage"
+             Title="Sign Up"
+             BackgroundColor="#0E1633"
+             Padding="20,40,20,20">
+
+    <ScrollView>
+       
+        
+        <StackLayout Spacing="30" VerticalOptions="CenterAndExpand">
+            <Button Text="🏠 Home" Clicked="OnHomeClicked"
+BackgroundColor="Transparent" TextColor="#007BFF"
+HorizontalOptions="Start" FontAttributes="Bold"/>
+
+            <!-- App Logo / Icon -->
+            <Frame WidthRequest="80" HeightRequest="80" CornerRadius="40" BackgroundColor="#1B3BFF" HorizontalOptions="Center">
+                <Label Text="🌱" FontSize="36" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </Frame>
+
+            <Label Text="Create Account" FontSize="32" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center"/>
+            <Label Text="Start your wellness journey today" FontSize="16" TextColor="#A0AFCB" HorizontalOptions="Center"/>
+
+            <Frame BackgroundColor="#1A2248" CornerRadius="12" Padding="20" HasShadow="False">
+                <StackLayout Spacing="20">
+
+                    <Entry x:Name="FullNameEntry" Placeholder="Full Name" TextColor="White" PlaceholderColor="#4D6B99"/>
+                    <Entry x:Name="EmailEntry" Placeholder="Email Address" TextColor="White" PlaceholderColor="#4D6B99" Keyboard="Email"/>
+                    <Entry x:Name="LocationEntry" Placeholder="Location" TextColor="White" PlaceholderColor="#4D6B99"/>
+                    <Entry x:Name="PhoneEntry" Placeholder="Phone" TextColor="White" PlaceholderColor="#4D6B99"/>
+                    <Entry x:Name="PasswordEntry" Placeholder="Password"  TextColor="White" PlaceholderColor="#4D6B99"/>
+                    <Entry x:Name="ConfirmPasswordEntry" Placeholder="Confirm Password" IsPassword="True" TextColor="White" PlaceholderColor="#4D6B99"/>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10">
+                        <CheckBox x:Name="TermsCheckBox" VerticalOptions="Center"/>
+                        <Label Text="I agree to the Terms and Privacy Policy" TextColor="#A0AFCB" VerticalOptions="Center"/>
+                    </StackLayout>
+
+                    <Button x:Name="CreateAccountBtn" Text="Create Account" BackgroundColor="#1B3BFF" TextColor="White" HeightRequest="50" Clicked="OnCreateAccountClicked"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

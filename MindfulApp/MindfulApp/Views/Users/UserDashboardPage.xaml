@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Users.UserDashboardPage"
+             Title="Dashboard"
+             BackgroundColor="#0E1633"
+             Padding="20,40,20,20">
+
+    <StackLayout Spacing="20" VerticalOptions="StartAndExpand">
+       
+        
+
+        <!-- Welcome message -->
+        <Label x:Name="WelcomeLabel"
+           Text="Welcome, User!"
+           FontSize="28"
+           FontAttributes="Bold"
+           TextColor="White"
+           HorizontalOptions="Center"/> 
+        <Label Text="Track your moods, meditate, and stay mindful." FontSize="16" TextColor="#A0AFCB" HorizontalOptions="Center"/>
+
+        <!-- Quick Action Buttons -->
+        <Grid ColumnSpacing="15" RowSpacing="15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Mood Tracker -->
+            <Frame BackgroundColor="#1B3BFF" CornerRadius="12" Padding="20" Grid.Row="0" Grid.Column="0" HasShadow="False">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnMoodTrackerTapped"/>
+                </Frame.GestureRecognizers>
+                
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="😌" FontSize="36" HorizontalOptions="Center"/>
+                    <Label Text="Mood Tracker" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Meditation -->
+            <Frame BackgroundColor="#FF6B6B"
+               CornerRadius="12"
+               Padding="20"
+               Grid.Row="0"
+               Grid.Column="1"
+               HasShadow="False">       
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnMeditationTapped"/>
+                </Frame.GestureRecognizers>
+
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="🧘‍♂️" FontSize="36" HorizontalOptions="Center"/>
+                    <Label Text="Meditation" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center"/>
+                </StackLayout>
+
+            </Frame>
+
+            <!-- Affirmations -->
+            <Frame BackgroundColor="#1ABC9C" CornerRadius="12" Padding="20" Grid.Row="1" Grid.Column="0" HasShadow="False">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnAffirmationsTapped"/>
+                </Frame.GestureRecognizers>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="🌱" FontSize="36" HorizontalOptions="Center"/>
+                    <Label Text="Affirmations" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Settings -->
+            <Frame BackgroundColor="#F39C12" CornerRadius="12" Padding="20" Grid.Row="1" Grid.Column="1" HasShadow="False">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnProfileTapped"/>
+                </Frame.GestureRecognizers>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="⚙️" FontSize="36" HorizontalOptions="Center"/>
+                    <Label Text="Profile" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+        </Grid>
+        <Button Text="Reset Password"
+            BackgroundColor="#FF5252"
+            TextColor="White"
+            CornerRadius="10"
+            HeightRequest="36"
+            Clicked="OnResetPasswordClicked"/>
+
+        <Button Text="Logout"
+            BackgroundColor="#FF5252"
+            TextColor="White"
+            CornerRadius="10"
+            HeightRequest="36"
+            Clicked="OnLogoutClicked"
+            />
+
+           
+
+        <!-- Footer -->
+        <Label Text="Keep track of your mindfulness journey daily 🌿" FontSize="14" TextColor="#4D6B99" HorizontalOptions="Center" Margin="0,20,0,0"/>
+
+    </StackLayout>
+</ContentPage>

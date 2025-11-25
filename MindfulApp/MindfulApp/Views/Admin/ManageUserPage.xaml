@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Admin.ManageUserPage"
+             Title="Manage Users"
+             BackgroundColor="#0E1633"
+             Padding="10">
+
+    <StackLayout Spacing="15">
+        <Button Text="🏠 Home" Clicked="OnHomeClicked"
+    BackgroundColor="Transparent" TextColor="#007BFF"
+    HorizontalOptions="Start" FontAttributes="Bold"/>
+
+        <Button Text="Add New User"
+                BackgroundColor="#1B3BFF"
+                TextColor="White"
+                HeightRequest="50"
+                CornerRadius="8"
+                Clicked="OnAddNewUserClicked"/>
+
+        <CollectionView x:Name="UsersCollectionView"
+                        ItemsSource="{Binding Users}"
+                        SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="#1A2248" CornerRadius="12" Padding="10" Margin="0,5,0,5">
+                        <Grid ColumnDefinitions="*,Auto,Auto" VerticalOptions="Center">
+                            <StackLayout>
+                                <Label Text="{Binding FullName}" FontAttributes="Bold" FontSize="16" TextColor="White"/>
+                                <Label Text="{Binding Email}" FontSize="14" TextColor="#A0AFCB"/>
+                            </StackLayout>
+
+                            <Button Text="Edit"
+                                    BackgroundColor="#FFC107"
+                                    TextColor="White"
+                                    CornerRadius="8"
+                                    WidthRequest="70"
+                                    HeightRequest="40"
+                                    Grid.Column="1"
+                                    CommandParameter="{Binding Id}"
+                                    Clicked="OnEditUserClicked"/>
+
+                            <Button Text="Delete"
+                                    BackgroundColor="#DC3545"
+                                    TextColor="White"
+                                    CornerRadius="8"
+                                    WidthRequest="70"
+                                    HeightRequest="40"
+                                    Grid.Column="2"
+                                    Margin="5,0,0,0"
+                                    CommandParameter="{Binding Id}"
+                                    Clicked="OnDeleteUserClicked"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </StackLayout>
+</ContentPage>

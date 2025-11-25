@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Users.AffirmationListPage"
+             Title="My Affirmations"
+             BackgroundColor="#F5F5F5">
+
+    <StackLayout Padding="15" Spacing="15">
+        <Button Text="🏠 Home" Clicked="OnHomeClicked"
+BackgroundColor="Transparent" TextColor="#007BFF"
+HorizontalOptions="Start" FontAttributes="Bold"/>
+
+        <Label Text="My Affirmations"
+               FontSize="22"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <CollectionView x:Name="AffirmationCollection" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="15"
+                           Margin="0,8"
+                           BackgroundColor="White"
+                           CornerRadius="12"
+                           HasShadow="True">
+
+                        <StackLayout>
+                            <Label Text="{Binding Category}" 
+                                   FontAttributes="Bold" 
+                                   FontSize="16"
+                                   TextColor="#444"/>
+
+                            <Label Text="{Binding Text}"
+                                   FontSize="14"
+                                   TextColor="#666"
+                                   Margin="0,4,0,0"/>
+
+                            <Label Text="{Binding CreatedAt, StringFormat='Created: {0:dd-MMM-yyyy}'}"
+                                   FontSize="12"
+                                   TextColor="#999"
+                                   Margin="0,5,0,0"/>
+
+                            <Button Text="Delete"
+                                    BackgroundColor="#FF5252"
+                                    TextColor="White"
+                                    CornerRadius="10"
+                                    HeightRequest="36"
+                                    Clicked="OnDeleteClicked"
+                                    CommandParameter="{Binding Id}" />
+                        </StackLayout>
+
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </StackLayout>
+
+</ContentPage>

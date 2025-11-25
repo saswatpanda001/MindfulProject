@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Users.MoodTrackerPage"
+             Title="Mood Tracker"
+             BackgroundColor="#F2F8FF"
+             Padding="20">
+
+    <ScrollView>
+        <StackLayout Spacing="20">
+            <Button Text="🏠 Home" Clicked="OnHomeClicked"
+BackgroundColor="Transparent" TextColor="#007BFF"
+HorizontalOptions="Start" FontAttributes="Bold"/>
+
+            <!-- Title -->
+            <Label 
+                Text="Mood Tracker"
+                FontSize="28"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="#1D3557"/>
+
+            <!-- User box -->
+            <Frame 
+                BackgroundColor="#A8DADC"
+                Padding="15"
+                CornerRadius="15"
+                HasShadow="True">
+                <Label 
+                    x:Name="UserLabel"
+                    Text="User: -"
+                    FontSize="18"
+                    TextColor="Black"/>
+            </Frame>
+
+            <!-- Date box -->
+            <Frame 
+                BackgroundColor="#FFE5B4"
+                Padding="15"
+                CornerRadius="15"
+                HasShadow="True">
+                <StackLayout>
+                    <Label 
+                        Text="Date"
+                        FontAttributes="Bold"
+                        TextColor="#7A4A00"/>
+
+                    <Label 
+                        x:Name="DateLabel"
+                        Text=""
+                        FontSize="16"
+                        TextColor="#7A4A00"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Mood picker -->
+            <Frame 
+                BackgroundColor="#D5E8FF"
+                Padding="15"
+                CornerRadius="15"
+                HasShadow="True">
+
+                <StackLayout>
+                    <Label 
+                        Text="Select Mood"
+                        FontAttributes="Bold"
+                        FontSize="16"
+                        TextColor="#003566"/>
+
+                    <Picker x:Name="MoodPicker" Title="Select Mood">
+                        <Picker.Items>
+                            <x:String>Great</x:String>
+                            <x:String>Good</x:String>
+                            <x:String>Okay</x:String>
+                            <x:String>Low</x:String>
+                            <x:String>Sad</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+            </Frame>
+
+            <!-- Notes -->
+            <Frame
+                BackgroundColor="#FFF1F1"
+                Padding="15"
+                CornerRadius="15"
+                HasShadow="True">
+
+                <StackLayout>
+                    <Label 
+                        Text="Notes"
+                        FontAttributes="Bold"
+                        FontSize="16"
+                        TextColor="#8B0000"/>
+
+                    <Editor 
+                        x:Name="NotesEditor"
+                        Placeholder="Write something about how you're feeling..."
+                        AutoSize="TextChanges"
+                        TextColor="#8B0000"
+                        FontSize="15"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Save Button -->
+            <Button 
+                Text="Save Mood"
+                BackgroundColor="#1D3557"
+                TextColor="White"
+                CornerRadius="10"
+                HeightRequest="50"
+                FontAttributes="Bold"
+                Clicked="OnSaveMoodClicked"/>
+
+            <Button 
+                 Text="My Mood Records"
+                 BackgroundColor="#1D3557"
+                 TextColor="White"
+                 CornerRadius="10"
+                 HeightRequest="50"
+                 FontAttributes="Bold"
+                 Clicked="OnMoodRecordsClicked"/>  
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

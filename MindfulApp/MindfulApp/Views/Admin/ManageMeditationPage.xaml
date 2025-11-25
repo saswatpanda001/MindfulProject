@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Admin.ManageMeditationPage"
+             Title="Manage Sessions"
+             BackgroundColor="#F5F2FF"
+             Padding="10">
+
+    <StackLayout Spacing="15">
+        <Button Text="🏠 Home" Clicked="OnHomeClicked"
+    BackgroundColor="Transparent" TextColor="#007BFF"
+    HorizontalOptions="Start" FontAttributes="Bold"/>
+
+        <!-- Top Controls: Select All + Delete -->
+        <Grid Padding="0,0,0,10" ColumnSpacing="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <CheckBox x:Name="SelectAllCheckBox" VerticalOptions="Center" CheckedChanged="OnSelectAllChanged" Grid.Column="0"/>
+            <Label Text="Select All" VerticalOptions="Center" FontAttributes="Bold" TextColor="#4B3F72" Grid.Column="1"/>
+
+            <Button Text="Delete Selected" 
+                    BackgroundColor="#FF6B6B" 
+                    TextColor="White" 
+                    CornerRadius="20"
+                    HeightRequest="40"
+                    Clicked="OnDeleteSelectedClicked"
+                    Grid.Column="2"/>
+        </Grid>
+
+        <!-- Meditation Sessions List -->
+        <ListView x:Name="SessionsListView" 
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None"
+                  BackgroundColor="Transparent">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame CornerRadius="12" 
+                               BackgroundColor="White" 
+                               HasShadow="True"
+                               Padding="15"
+                               Margin="0,5,0,5">
+
+                            <Grid ColumnSpacing="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Select Checkbox -->
+                                <CheckBox IsChecked="{Binding IsSelected}" VerticalOptions="Center" Grid.Column="0"/>
+
+                                <!-- Session Details -->
+                                <StackLayout Grid.Column="1" Spacing="3">
+                                    <Label Text="{Binding Date, StringFormat='{0:dd MMM yyyy}'}" 
+                                           FontSize="16" 
+                                           FontAttributes="Bold" 
+                                           TextColor="#4B3F72"/>
+                                    <Label Text="{Binding DurationMinutes, StringFormat='Duration: {0} mins'}" 
+                                           FontSize="14" 
+                                           TextColor="#7B6FA5"/>
+                                    <Label Text="{Binding UserName}" 
+                                           FontSize="14" 
+                                           TextColor="#555"/>
+                                </StackLayout>
+                            </Grid>
+
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+</ContentPage>

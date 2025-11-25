@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Admin.ManageMoodPage"
+             Title="Manage Mood Entries"
+             BackgroundColor="#F5F2FF"
+             Padding="10">
+
+    <StackLayout Spacing="15">
+        <Button Text="🏠 Home" Clicked="OnHomeClicked"
+    BackgroundColor="Transparent" TextColor="#007BFF"
+    HorizontalOptions="Start" FontAttributes="Bold"/>
+
+        <!-- Add New Mood Button -->
+        <Button Text="Add New Mood" 
+                BackgroundColor="#8E7CC3" 
+                TextColor="White" 
+                CornerRadius="12"
+                HeightRequest="50"
+                FontAttributes="Bold"
+                Clicked="OnAddNewMoodClicked"/>
+
+        <!-- Mood List -->
+        <ListView x:Name="MoodListView" 
+                  Margin="0,10,0,0" 
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None"
+                  BackgroundColor="Transparent">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame CornerRadius="12" 
+                               BackgroundColor="White" 
+                               HasShadow="True"
+                               Padding="15"
+                               Margin="0,5,0,5">
+                            <Grid ColumnSpacing="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Mood Details -->
+                                <StackLayout Grid.Column="0" VerticalOptions="Center">
+                                    <Label Text="{Binding Mood}" 
+                                           FontAttributes="Bold" 
+                                           FontSize="16" 
+                                           TextColor="#4B0082"/>
+                                    <Label Text="{Binding Note}" 
+                                           FontSize="14" 
+                                           TextColor="#6E5494"/>
+                                    <Label Text="{Binding Date, StringFormat='{0:dd MMM yyyy}'}" 
+                                           FontSize="12" 
+                                           TextColor="#A092B0"/>
+                                </StackLayout>
+
+                                <!-- Edit Button -->
+                                <Button Grid.Column="1" 
+                                        Text="✏️" 
+                                        BackgroundColor="#A58FFF" 
+                                        TextColor="White" 
+                                        CornerRadius="10" 
+                                        WidthRequest="50" 
+                                        HeightRequest="35"
+                                        FontSize="14"
+                                        CommandParameter="{Binding Id}" 
+                                        Clicked="OnEditMoodClicked"/>
+
+                                <!-- Delete Button -->
+                                <Button Grid.Column="2" 
+                                        Text="🗑" 
+                                        BackgroundColor="#FF6B6B" 
+                                        TextColor="White" 
+                                        CornerRadius="10" 
+                                        WidthRequest="50" 
+                                        HeightRequest="35"
+                                        Margin="5,0,0,0"
+                                        FontSize="14"
+                                        CommandParameter="{Binding Id}" 
+                                        Clicked="OnDeleteMoodClicked"/>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

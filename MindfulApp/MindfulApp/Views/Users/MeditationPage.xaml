@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Users.MeditationPage"
+              BackgroundColor="#061428">
+
+    <StackLayout Padding="20,40" Spacing="30">
+        <Button Text="🏠 Home" Clicked="OnHomeClicked"
+BackgroundColor="Transparent" TextColor="#007BFF"
+HorizontalOptions="Start" FontAttributes="Bold"/>
+
+        <Label Text="Meditation Timer"
+               FontSize="24"
+               FontAttributes="Bold"
+               TextColor="White"
+               HorizontalOptions="Center"/>
+
+        <!-- Big Timer Circle -->
+        <Frame WidthRequest="220"
+               HeightRequest="220"
+               CornerRadius="110"
+               BorderColor="#1B3BFF"
+               BackgroundColor="Transparent"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand">
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label x:Name="TimeLabel"
+                       Text="00:00"
+                       FontSize="46"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+                <Label Text="Meditating..."
+                       FontSize="14"
+                       TextColor="#A0AFCB"
+                       HorizontalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+
+        <!-- Play / Pause / Stop buttons -->
+        <Grid ColumnSpacing="40" HorizontalOptions="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Reset -->
+            <Frame Grid.Column="0"
+                   WidthRequest="60" HeightRequest="60"
+                   CornerRadius="30"
+                   BackgroundColor="#0B1A3A">
+                <Label Text="⟲" FontSize="26" TextColor="White"
+                       HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnResetTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Frame>
+
+            <!-- Play / Pause -->
+            <Frame Grid.Column="1"
+                   WidthRequest="80" HeightRequest="80"
+                   CornerRadius="40"
+                   BackgroundColor="#1B3BFF">
+                <Label x:Name="PlayPauseLabel" Text="▶" FontSize="34" TextColor="White"
+                       HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnPlayPauseTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Frame>
+
+            <!-- Stop -->
+            <Frame Grid.Column="2"
+                   WidthRequest="60" HeightRequest="60"
+                   CornerRadius="30"
+                   BackgroundColor="#0B1A3A">
+                <Label Text="■" FontSize="26" TextColor="White"
+                       HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnStopTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Frame>
+        </Grid>
+
+        <Label x:Name="DurationLabel"
+               Text="Session: 0 min"
+               TextColor="White"
+               FontSize="16"
+               HorizontalOptions="Center"/>
+
+
+        <Button Text="Meditation Sessions"
+              BackgroundColor="#4CAF50"
+              TextColor="White"
+              CornerRadius="8"
+              HeightRequest="46"
+              Clicked="OnMeditationSessionsClicked"/>   
+
+
+    </StackLayout>
+
+</ContentPage>

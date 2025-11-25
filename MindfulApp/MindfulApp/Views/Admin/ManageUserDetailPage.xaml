@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindfulApp.Views.Admin.ManageUserDetailPage"
+             Title="User Details"
+             BackgroundColor="#0E1633"
+             Padding="20">
+
+    <ScrollView>
+        
+        <StackLayout Spacing="20">
+            <Button Text="🏠 Home" Clicked="OnHomeClicked"
+BackgroundColor="Transparent" TextColor="#007BFF"
+HorizontalOptions="Start" FontAttributes="Bold"/>
+
+            <Entry x:Name="FullNameEntry"
+                   Placeholder="Full Name"
+                   PlaceholderColor="#4D6B99"
+                   TextColor="White"/>
+
+            <Entry x:Name="EmailEntry"
+                   Placeholder="Email"
+                   Keyboard="Email"
+                   PlaceholderColor="#4D6B99"
+                   TextColor="White"/>
+
+            <Entry x:Name="PhoneEntry"
+                   Placeholder="Phone"
+                   Keyboard="Telephone"
+                   PlaceholderColor="#4D6B99"
+                   TextColor="White"/>
+
+            <Entry x:Name="LocationEntry"
+                   Placeholder="Location"
+                   PlaceholderColor="#4D6B99"
+                   TextColor="White"/>
+
+            <Entry x:Name="PasswordEntry"
+                   Placeholder="Password"
+                   IsPassword="True"
+                   PlaceholderColor="#4D6B99"
+                   TextColor="White"/>
+
+            <Picker x:Name="RolePicker"
+                Title="Select Role"
+                TextColor="White">
+                    <Picker.Items>
+                        <x:String>User</x:String>
+                        <x:String>Admin</x:String>
+                    </Picker.Items>     
+            </Picker>
+
+            <Button x:Name="SaveBtn"
+                    Text="Save"
+                    BackgroundColor="#1B3BFF"
+                    TextColor="White"
+                    HeightRequest="50"
+                    CornerRadius="8"
+                    Clicked="OnSaveClicked"/>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,412 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\project\\MindfulWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\controllers\\affirmationentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:controllers\\affirmationentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\controllers\\meditationsessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:controllers\\meditationsessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\controllers\\moodentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:controllers\\moodentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\models\\affirmationentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:models\\affirmationentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\models\\meditationsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:models\\meditationsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\models\\moodentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:models\\moodentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\migrations\\20251125122400_final1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:migrations\\20251125122400_final1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\models\\mindfuldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:models\\mindfuldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saswat\\Desktop\\ASP.NET\\RestaurantAPI\\RestaurantAPI\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saswat\\Desktop\\ASP.NET\\RestaurantAPI\\RestaurantAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\mindfulwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:mindfulwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\migrations\\20251124135615_jsonignore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:migrations\\20251124135615_jsonignore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\migrations\\20251124134119_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:migrations\\20251124134119_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\migrations\\20251125031237_updatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:migrations\\20251125031237_updatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\migrations\\20251125021727_updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:migrations\\20251125021727_updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\migrations\\20251124175844_userupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:migrations\\20251124175844_userupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|c:\\project\\mindfulwebapi\\migrations\\20251125121324_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0AB2059-93FB-48F2-B96D-4183DD6E40CE}|MindfulWebAPI.csproj|solutionrelative:migrations\\20251125121324_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 293,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AffirmationEntry.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Models\\AffirmationEntry.cs",
+              "RelativeDocumentMoniker": "Models\\AffirmationEntry.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Models\\AffirmationEntry.cs",
+              "RelativeToolTip": "Models\\AffirmationEntry.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:50:07.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20251125031237_updateModels.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Migrations\\20251125031237_updateModels.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251125031237_updateModels.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Migrations\\20251125031237_updateModels.cs",
+              "RelativeToolTip": "Migrations\\20251125031237_updateModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:12:37.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MeditationSession.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Models\\MeditationSession.cs",
+              "RelativeDocumentMoniker": "Models\\MeditationSession.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Models\\MeditationSession.cs",
+              "RelativeToolTip": "Models\\MeditationSession.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:54:52.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:56:33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoodEntriesController.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Controllers\\MoodEntriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MoodEntriesController.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Controllers\\MoodEntriesController.cs",
+              "RelativeToolTip": "Controllers\\MoodEntriesController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:57:06.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:05:00.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T12:39:03.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T13:59:28.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeditationSessionsController.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Controllers\\MeditationSessionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MeditationSessionsController.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Controllers\\MeditationSessionsController.cs",
+              "RelativeToolTip": "Controllers\\MeditationSessionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:57:30.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AffirmationEntriesController.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Controllers\\AffirmationEntriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AffirmationEntriesController.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Controllers\\AffirmationEntriesController.cs",
+              "RelativeToolTip": "Controllers\\AffirmationEntriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:57:51.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20251125121324_final.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Migrations\\20251125121324_final.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251125121324_final.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Migrations\\20251125121324_final.cs",
+              "RelativeToolTip": "Migrations\\20251125121324_final.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T12:13:24.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MindfulDbContext.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Models\\MindfulDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\MindfulDbContext.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Models\\MindfulDbContext.cs",
+              "RelativeToolTip": "Models\\MindfulDbContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:58:43.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:54:06.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MoodEntry.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Models\\MoodEntry.cs",
+              "RelativeDocumentMoniker": "Models\\MoodEntry.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Models\\MoodEntry.cs",
+              "RelativeToolTip": "Models\\MoodEntry.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:54:31.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20251125122400_final1.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Migrations\\20251125122400_final1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251125122400_final1.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Migrations\\20251125122400_final1.cs",
+              "RelativeToolTip": "Migrations\\20251125122400_final1.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T12:24:00.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20251125021727_updateUSer.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Migrations\\20251125021727_updateUSer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251125021727_updateUSer.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Migrations\\20251125021727_updateUSer.cs",
+              "RelativeToolTip": "Migrations\\20251125021727_updateUSer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:17:27.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\saswat\\Desktop\\ASP.NET\\RestaurantAPI\\RestaurantAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\..\\Users\\saswat\\Desktop\\ASP.NET\\RestaurantAPI\\RestaurantAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\saswat\\Desktop\\ASP.NET\\RestaurantAPI\\RestaurantAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\..\\Users\\saswat\\Desktop\\ASP.NET\\RestaurantAPI\\RestaurantAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T18:40:27.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\saswat\\Desktop\\ASP.NET\\RestaurantAPI\\RestaurantAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\Users\\saswat\\Desktop\\ASP.NET\\RestaurantAPI\\RestaurantAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\saswat\\Desktop\\ASP.NET\\RestaurantAPI\\RestaurantAPI\\appsettings.json",
+              "RelativeToolTip": "..\\..\\Users\\saswat\\Desktop\\ASP.NET\\RestaurantAPI\\RestaurantAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T18:40:13.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:41:02.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20251124175844_UserUpdated.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Migrations\\20251124175844_UserUpdated.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251124175844_UserUpdated.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Migrations\\20251124175844_UserUpdated.cs",
+              "RelativeToolTip": "Migrations\\20251124175844_UserUpdated.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T17:58:44.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:49:31.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20251124135615_jsonignore.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Migrations\\20251124135615_jsonignore.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251124135615_jsonignore.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Migrations\\20251124135615_jsonignore.cs",
+              "RelativeToolTip": "Migrations\\20251124135615_jsonignore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:56:15.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MindfulWebAPI.http",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\MindfulWebAPI.http",
+              "RelativeDocumentMoniker": "MindfulWebAPI.http",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\MindfulWebAPI.http",
+              "RelativeToolTip": "MindfulWebAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-24T13:57:43.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20251124134119_initialCreate.cs",
+              "DocumentMoniker": "C:\\project\\MindfulWebAPI\\Migrations\\20251124134119_initialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251124134119_initialCreate.cs",
+              "ToolTip": "C:\\project\\MindfulWebAPI\\Migrations\\20251124134119_initialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251124134119_initialCreate.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T13:41:19.287Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

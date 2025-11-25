@@ -1,0 +1,6 @@
+@MindfulWebAPI_HostAddress = http://localhost:5265
+
+GET {{MindfulWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
