@@ -22,9 +22,15 @@
            HorizontalOptions="Center"
            TextColor="#3B2E7E"
            Margin="0,-10,0,0"/>
-            
 
-            <!-- Subtitle -->
+            <Image Source="logo.png"  
+                WidthRequest="120"
+               HeightRequest="120"
+               Aspect="AspectFit"
+               HorizontalOptions="Center"/>
+
+
+                <!-- Subtitle -->
             <Label Text="Your daily companion for mindfulness and well-being"
            FontSize="18"
            Opacity="0.85"

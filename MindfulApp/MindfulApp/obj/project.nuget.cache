@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6OhKIUIwH9g=",
+  "dgSpecHash": "gCoeeXhpd/o=",
   "success": true,
-  "projectFilePath": "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj",
+  "projectFilePath": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saswat\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\saswat\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

@@ -7,12 +7,13 @@
              Padding="20">
 
     <ScrollView>
-       
-        
+
+
         <StackLayout Spacing="20">
+
             <Button Text="🏠 Home" Clicked="OnHomeClicked"
-BackgroundColor="Transparent" TextColor="#007BFF"
-HorizontalOptions="Start" FontAttributes="Bold"/>
+                    BackgroundColor="Transparent" TextColor="#007BFF"
+                    HorizontalOptions="Start" FontAttributes="Bold"/>
 
             <Label Text="Edit Profile" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
 
@@ -22,6 +23,20 @@ HorizontalOptions="Start" FontAttributes="Bold"/>
             <Entry x:Name="LocationEntry" Placeholder="Location"/>
 
             <Button Text="Save" BackgroundColor="#1B3BFF" TextColor="White" Clicked="OnSaveClicked"/>
+
+            <!-- Slider for Red Component -->
+            <Label Text="Adjust Background Red" />
+            <Slider x:Name="RedSlider" Minimum="0" Maximum="255" ValueChanged="OnColorSliderChanged"/>
+
+            <!-- Stepper for Green Component -->
+            <Label Text="Adjust Background Green" />
+            <Stepper x:Name="GreenStepper" Minimum="0" Maximum="255" Increment="5" ValueChanged="OnColorStepperChanged"/>
+
+            <!-- Switch for Dark/Light Mode -->
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                <Label Text="Dark Mode" VerticalOptions="Center"/>
+                <Switch x:Name="DarkModeSwitch" Toggled="OnDarkModeToggled" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
 
         </StackLayout>
     </ScrollView>

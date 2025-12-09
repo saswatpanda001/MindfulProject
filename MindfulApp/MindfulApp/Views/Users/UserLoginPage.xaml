@@ -53,7 +53,21 @@ HorizontalOptions="Start" FontAttributes="Bold"/>
                     </Label>
                 </StackLayout>
 
-               
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                    <Label Text="Forgot Password" FontSize="14" TextColor="#A0AFCB" VerticalOptions="Center"/>
+                    <Label Text="Click Here"
+                            FontSize="14"
+                            FontAttributes="Bold"
+                            TextColor="#1B3BFF"
+                            VerticalOptions="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnForgotPasswordTapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                
+
+
 
             </StackLayout>
 

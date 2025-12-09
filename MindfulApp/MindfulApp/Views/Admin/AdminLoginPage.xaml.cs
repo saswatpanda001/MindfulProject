@@ -27,6 +27,13 @@ namespace MindfulApp.Views.Admin
             await Navigation.PushAsync(new LandingPage());
         }
 
+        private async void OnForgotPasswordTapped(object sender, EventArgs e)
+        {
+            // Navigate to a ForgotPasswordPage
+            await Navigation.PushAsync(new ForgotPasswordPage());
+
+        }
+
         private async void OnAdminSignInClicked(object sender, EventArgs e)
         {
             string email = EmailEntry.Text?.Trim().ToLower();

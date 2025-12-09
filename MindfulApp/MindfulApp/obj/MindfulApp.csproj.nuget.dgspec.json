@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {}
+    "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {}
   },
   "projects": {
-    "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {
+    "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj",
+        "projectUniqueName": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj",
         "projectName": "MindfulApp",
-        "projectPath": "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj",
+        "projectPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj",
         "packagesPath": "C:\\Users\\saswat\\.nuget\\packages\\",
-        "outputPath": "C:\\MindfulApp\\MindfulApp\\obj\\",
+        "outputPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

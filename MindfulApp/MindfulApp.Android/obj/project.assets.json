@@ -3459,11 +3459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MindfulApp\\MindfulApp.Android\\MindfulApp.Android.csproj",
+      "projectUniqueName": "C:\\MindfulProject\\MindfulApp\\MindfulApp.Android\\MindfulApp.Android.csproj",
       "projectName": "MindfulApp.Android",
-      "projectPath": "C:\\MindfulApp\\MindfulApp.Android\\MindfulApp.Android.csproj",
+      "projectPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp.Android\\MindfulApp.Android.csproj",
       "packagesPath": "C:\\Users\\saswat\\.nuget\\packages\\",
-      "outputPath": "C:\\MindfulApp\\MindfulApp.Android\\obj\\",
+      "outputPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,
@@ -3485,8 +3485,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {
-              "projectPath": "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj"
+            "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {
+              "projectPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj"
             }
           }
         }

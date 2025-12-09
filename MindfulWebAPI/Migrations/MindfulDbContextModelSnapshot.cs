@@ -181,6 +181,8 @@ namespace MindfulWebAPI.Migrations
                             t.HasCheckConstraint("CK_User_Password_MinLength", "LEN(Password) >= 4");
 
                             t.HasCheckConstraint("CK_User_Phone_ExactLength", "LEN(Phone) = 10");
+
+                            t.HasCheckConstraint("CK_Users_Email_Valid", "[Email] LIKE '%_@_%._%' AND LEN([Email]) <= 254 AND [Email] NOT LIKE '%[^a-zA-Z0-9@._]%' AND [Email] NOT LIKE '%@%@%' AND [Email] NOT LIKE '%.@%' AND [Email] NOT LIKE '%@.%' AND [Email] NOT LIKE '%.' AND [Email] NOT LIKE '@%' AND [Email] NOT LIKE '.%'");
                         });
                 });
 

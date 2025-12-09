@@ -1354,11 +1354,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj",
+      "projectUniqueName": "C:\\MindfulProject\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj",
       "projectName": "MindfulApp.iOS",
-      "projectPath": "C:\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj",
+      "projectPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj",
       "packagesPath": "C:\\Users\\saswat\\.nuget\\packages\\",
-      "outputPath": "C:\\MindfulApp\\MindfulApp.iOS\\obj\\",
+      "outputPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "UsingMicrosoftNETSdk": false,
@@ -1380,8 +1380,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {
-              "projectPath": "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj"
+            "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {
+              "projectPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj"
             }
           }
         }

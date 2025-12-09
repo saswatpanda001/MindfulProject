@@ -4481,11 +4481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\project\\MindfulWebAPI\\MindfulWebAPI.csproj",
+      "projectUniqueName": "C:\\MindfulProject\\MindfulWebAPI\\MindfulWebAPI.csproj",
       "projectName": "MindfulWebAPI",
-      "projectPath": "C:\\project\\MindfulWebAPI\\MindfulWebAPI.csproj",
+      "projectPath": "C:\\MindfulProject\\MindfulWebAPI\\MindfulWebAPI.csproj",
       "packagesPath": "C:\\Users\\saswat\\.nuget\\packages\\",
-      "outputPath": "C:\\project\\MindfulWebAPI\\obj\\",
+      "outputPath": "C:\\MindfulProject\\MindfulWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

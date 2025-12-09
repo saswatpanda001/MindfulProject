@@ -17,6 +17,9 @@ namespace MindfulApp.Views
     {
         private readonly UserService _userService;
         private readonly User _currentUser;
+        private double red = 255;
+        private double green = 255;
+        private double blue = 255;
 
         public ProfilePage(User loggedInUser)
         {
@@ -31,6 +34,46 @@ namespace MindfulApp.Views
             LocationEntry.Text = _currentUser.Location;
             NavigationPage.SetHasBackButton(this, false);
         }
+
+        // Slider changes red component
+        private void OnColorSliderChanged(object sender, ValueChangedEventArgs e)
+        {
+            red = e.NewValue;
+            UpdateBackgroundColor();
+        }
+
+        // Stepper changes green component
+        private void OnColorStepperChanged(object sender, ValueChangedEventArgs e)
+        {
+            green = e.NewValue;
+            UpdateBackgroundColor();
+        }
+
+        // Switch toggles dark/light mode
+        private void OnDarkModeToggled(object sender, ToggledEventArgs e)
+        {
+            if (e.Value)
+            {
+                // Dark mode
+                this.BackgroundColor = Color.Gray;
+            }
+            else
+            {
+                // Light mode
+                UpdateBackgroundColor();
+            }
+        }
+
+        private void UpdateBackgroundColor()
+        {
+            if (!DarkModeSwitch.IsToggled)
+            {
+                // Light mode: use RGB from slider/stepper
+                this.BackgroundColor = Color.FromRgb((int)red, (int)green, (int)blue);
+            }
+           
+        }
+
 
         private async void OnHomeClicked(object sender, EventArgs e)
         {

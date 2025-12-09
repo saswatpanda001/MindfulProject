@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MindfulApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f07bd15177076562199ab2c693146ea63ad62e17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f4cba28ef59ef39e202e9ad4805db18ecc11d23")]
 [assembly: System.Reflection.AssemblyProductAttribute("MindfulApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MindfulApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

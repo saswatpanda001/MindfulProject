@@ -1,22 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\MindfulApp\\",
+  "WorkspaceRootPath": "C:\\MindfulProject\\MindfulApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulapp\\mindfulapp\\views\\landingpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\admin\\manageuserpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\admin\\manageuserpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\admin\\adminloginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\admin\\adminloginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\admin\\managemeditationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\admin\\managemeditationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\admin\\managemoodpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\admin\\managemoodpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\landingpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\landingpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulapp\\mindfulapp\\views\\passwordresetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\signuppage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\signuppage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\forgotpasswordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\forgotpasswordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\landingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\landingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\forgotpasswordpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\forgotpasswordpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\users\\meditationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\users\\meditationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\users\\userdashboardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\users\\userdashboardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\users\\moodtrackerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\users\\moodtrackerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\users\\moodhistorypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\users\\moodhistorypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\users\\meditationsessionhistorypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\users\\meditationsessionhistorypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\users\\createaffirmationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\users\\createaffirmationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\users\\affirmationlistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\users\\affirmationlistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\admin\\manageuserdetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\admin\\manageuserdetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\admin\\managemooddetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\admin\\managemooddetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\admin\\adminloginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\admin\\adminloginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\admin\\admindashboardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\admin\\admindashboardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\users\\userloginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\users\\userloginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\passwordresetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\passwordresetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulapp\\mindfulapp\\views\\passwordresetpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\passwordresetpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\passwordresetpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulapp\\mindfulapp\\views\\admin\\admindashboardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\admin\\admindashboardpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|c:\\mindfulproject\\mindfulapp\\mindfulapp\\views\\users\\userloginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{D7334895-FD72-4889-BD57-60E93F72E4B6}|MindfulApp\\MindfulApp.csproj|solutionrelative:mindfulapp\\views\\users\\userloginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,59 +119,321 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LandingPage.xaml",
-              "DocumentMoniker": "C:\\MindfulApp\\MindfulApp\\Views\\LandingPage.xaml",
-              "RelativeDocumentMoniker": "MindfulApp\\Views\\LandingPage.xaml",
-              "ToolTip": "C:\\MindfulApp\\MindfulApp\\Views\\LandingPage.xaml",
-              "RelativeToolTip": "MindfulApp\\Views\\LandingPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-25T20:09:02.64Z",
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "MindfulApp\\Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswDkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:15:56.329Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignupPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\SignupPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\SignupPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\SignupPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\SignupPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-09T00:08:16.979Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PasswordResetPage.xaml.cs",
-              "DocumentMoniker": "C:\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml.cs",
-              "RelativeDocumentMoniker": "MindfulApp\\Views\\PasswordResetPage.xaml.cs",
-              "ToolTip": "C:\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml.cs",
-              "RelativeToolTip": "MindfulApp\\Views\\PasswordResetPage.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T20:06:05.267Z",
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\ProfilePage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\ProfilePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-09T00:08:15.624Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LandingPage.xaml.cs",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\LandingPage.xaml.cs",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\LandingPage.xaml.cs",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\LandingPage.xaml.cs",
+              "RelativeToolTip": "MindfulApp\\Views\\LandingPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:02:48.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MoodTrackerPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\MoodTrackerPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Users\\MoodTrackerPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\MoodTrackerPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Users\\MoodTrackerPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:57:38.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDashboardPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\UserDashboardPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Users\\UserDashboardPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\UserDashboardPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Users\\UserDashboardPage.xaml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:57:37.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MoodHistoryPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\MoodHistoryPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Users\\MoodHistoryPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\MoodHistoryPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Users\\MoodHistoryPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:57:33.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MeditationSessionHistoryPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\MeditationSessionHistoryPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Users\\MeditationSessionHistoryPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\MeditationSessionHistoryPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Users\\MeditationSessionHistoryPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:57:29.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateAffirmationPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\CreateAffirmationPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Users\\CreateAffirmationPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\CreateAffirmationPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Users\\CreateAffirmationPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:57:16.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MeditationPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\MeditationPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Users\\MeditationPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\MeditationPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Users\\MeditationPage.xaml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAB8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:57:15.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AffirmationListPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\AffirmationListPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Users\\AffirmationListPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\AffirmationListPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Users\\AffirmationListPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:57:10.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ManageUserDetailPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\ManageUserDetailPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Admin\\ManageUserDetailPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\ManageUserDetailPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Admin\\ManageUserDetailPage.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:56:57.942Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PasswordResetPage.xaml",
-              "DocumentMoniker": "C:\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml",
-              "RelativeDocumentMoniker": "MindfulApp\\Views\\PasswordResetPage.xaml",
-              "ToolTip": "C:\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml",
-              "RelativeToolTip": "MindfulApp\\Views\\PasswordResetPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Title": "ManageUserPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\ManageUserPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Admin\\ManageUserPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\ManageUserPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Admin\\ManageUserPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-25T20:05:39.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T23:56:57.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageMoodPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\ManageMoodPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Admin\\ManageMoodPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\ManageMoodPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Admin\\ManageMoodPage.xaml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:56:51.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ManageMoodDetailPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\ManageMoodDetailPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Admin\\ManageMoodDetailPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\ManageMoodDetailPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Admin\\ManageMoodDetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:56:30.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageMeditationPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\ManageMeditationPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Admin\\ManageMeditationPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\ManageMeditationPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Admin\\ManageMeditationPage.xaml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:56:24.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ForgotPasswordPage.xaml.cs",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\ForgotPasswordPage.xaml.cs",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\ForgotPasswordPage.xaml.cs",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\ForgotPasswordPage.xaml.cs",
+              "RelativeToolTip": "MindfulApp\\Views\\ForgotPasswordPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T23:50:21.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ForgotPasswordPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\ForgotPasswordPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\ForgotPasswordPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\ForgotPasswordPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\ForgotPasswordPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:48:59.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminLoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\AdminLoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Admin\\AdminLoginPage.xaml.cs",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\AdminLoginPage.xaml.cs",
+              "RelativeToolTip": "MindfulApp\\Views\\Admin\\AdminLoginPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T23:44:50.33Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminDashboardPage.xaml",
-              "DocumentMoniker": "C:\\MindfulApp\\MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
-              "RelativeDocumentMoniker": "MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
-              "ToolTip": "C:\\MindfulApp\\MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
-              "RelativeToolTip": "MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "Title": "AdminLoginPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\AdminLoginPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Admin\\AdminLoginPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\AdminLoginPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Admin\\AdminLoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-25T20:03:28.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T23:43:01.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserLoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\UserLoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Users\\UserLoginPage.xaml.cs",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\UserLoginPage.xaml.cs",
+              "RelativeToolTip": "MindfulApp\\Views\\Users\\UserLoginPage.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T23:41:31.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserLoginPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\UserLoginPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Users\\UserLoginPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Users\\UserLoginPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Users\\UserLoginPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-08T23:41:24.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LandingPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\LandingPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\LandingPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\LandingPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\LandingPage.xaml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-25T20:09:02.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PasswordResetPage.xaml.cs",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml.cs",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\PasswordResetPage.xaml.cs",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml.cs",
+              "RelativeToolTip": "MindfulApp\\Views\\PasswordResetPage.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T20:06:05.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PasswordResetPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\PasswordResetPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\PasswordResetPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\PasswordResetPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-25T20:05:39.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminDashboardPage.xaml",
+              "DocumentMoniker": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
+              "RelativeDocumentMoniker": "MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
+              "ToolTip": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
+              "RelativeToolTip": "MindfulApp\\Views\\Admin\\AdminDashboardPage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-25T20:03:28.121Z"
             }
           ]
         },
         {
-          "DockedWidth": 140,
+          "DockedWidth": 201,
           "SelectedChildIndex": -1,
           "Children": [
             {

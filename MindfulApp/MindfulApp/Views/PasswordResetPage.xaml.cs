@@ -28,6 +28,9 @@ namespace MindfulApp.Views
             {
                 EmailEntry.Text = SessionManager.LoggedInUser.Email;
             }
+            else {
+                EmailEntry.Text = null;
+            }
         }
 
         private async void OnHomeClicked(object sender, EventArgs e)

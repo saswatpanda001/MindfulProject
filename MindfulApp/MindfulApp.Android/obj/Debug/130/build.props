@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638997042421824980
+_nugetassetstimestamp=639004133217468608
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\mindfulapp\mindfulapp.android\mindfulapp.android.csproj
+projectfullpath=c:\mindfulproject\mindfulapp\mindfulapp.android\mindfulapp.android.csproj

@@ -72,9 +72,9 @@ namespace MindfulApp.Views.Users
         private async void OnForgotPasswordTapped(object sender, EventArgs e)
         {
             // Navigate to a ForgotPasswordPage
-            await Navigation.PushAsync(new PasswordResetPage());
-        }
+            await Navigation.PushAsync(new ForgotPasswordPage());
 
+        }
 
     }
 }

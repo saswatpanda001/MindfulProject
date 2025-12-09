@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj": {}
+    "C:\\MindfulProject\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj": {}
   },
   "projects": {
-    "C:\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj": {
+    "C:\\MindfulProject\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj",
+        "projectUniqueName": "C:\\MindfulProject\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj",
         "projectName": "MindfulApp.iOS",
-        "projectPath": "C:\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj",
+        "projectPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp.iOS\\MindfulApp.iOS.csproj",
         "packagesPath": "C:\\Users\\saswat\\.nuget\\packages\\",
-        "outputPath": "C:\\MindfulApp\\MindfulApp.iOS\\obj\\",
+        "outputPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
@@ -33,8 +33,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {
-                "projectPath": "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj"
+              "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {
+                "projectPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {
+    "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj",
+        "projectUniqueName": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj",
         "projectName": "MindfulApp",
-        "projectPath": "C:\\MindfulApp\\MindfulApp\\MindfulApp.csproj",
+        "projectPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\MindfulApp.csproj",
         "packagesPath": "C:\\Users\\saswat\\.nuget\\packages\\",
-        "outputPath": "C:\\MindfulApp\\MindfulApp\\obj\\",
+        "outputPath": "C:\\MindfulProject\\MindfulApp\\MindfulApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

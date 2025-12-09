@@ -36,6 +36,20 @@ namespace MindfulWebAPI.Models
                 .HasIndex(u => u.FullName)
                 .IsUnique();
 
+            modelBuilder.Entity<User>()
+            .HasCheckConstraint(
+                "CK_Users_Email_Valid",
+                "[Email] LIKE '%_@_%._%' AND " +                // Basic format
+                "LEN([Email]) <= 254 AND " +                    // Max length
+                "[Email] NOT LIKE '%[^a-zA-Z0-9@._]%' AND " + // Valid characters only
+                "[Email] NOT LIKE '%@%@%' AND " +               // Single @
+                "[Email] NOT LIKE '%.@%' AND " +                // No dot right before @
+                "[Email] NOT LIKE '%@.%' AND " +                // No dot right after @
+                "[Email] NOT LIKE '%.' AND " +                  // Can't end with dot
+                "[Email] NOT LIKE '@%' AND " +                  // Can't start with @
+                "[Email] NOT LIKE '.%'"                          // Can't start with dot
+                
+            );
 
             modelBuilder.Entity<User>()
                 .HasCheckConstraint("CK_User_FullName_MinLength", "LEN(FullName) >= 4");
@@ -66,6 +80,7 @@ namespace MindfulWebAPI.Models
 
             modelBuilder.Entity<AffirmationEntry>()
                 .HasCheckConstraint("CK_AffirmationEntry_Text_MinLength", "LEN(Text) >= 4");
+            
 
 
             modelBuilder.Entity<MoodEntry>()
